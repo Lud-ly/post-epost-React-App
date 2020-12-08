@@ -49,12 +49,12 @@ class PostList extends Component {
         return (
             <div id="page">
                 <div className="header">
-                    <h1>E.post</h1>
+                    <h1>EPOST</h1>
                     <input type="checkbox" onChange={(e) => this.setState({ displayOnlyMePosts: e.target.checked })} /> your E.post
                       <Link to={'users-list'}>
                         <button className="btn btn-default user">USERS</button>
                     </Link>
-                    <h4>Postez vos idées</h4>
+                    <h4>POSTEZ VOS IDEES</h4>
                 </div>
                 <div className="button_add">
                     <Link to={'create-post'}>

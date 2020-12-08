@@ -2,19 +2,22 @@ body{
   background-image:linear-gradient(#fafafa,grey) ;
   width: 100%;
 }
+h4{
+  margin-bottom: 50px;
+}
 #page{
   margin: 0 auto;
   width: calc(100% - 280px);
 }
 .header{
   text-align: center;
-  height: 200px;
+  height: 100px;
   background-color: #FAFAFA;
   margin-bottom: 2em;
 }
 .header h1{
-  background-color: greenyellow;
  padding: 20px;
+ border:1px solid #121212;
 }
 header
 .loading h1{
